@@ -1,0 +1,53 @@
+.dropdown-menu ul {
+  width: 100vw;
+  list-style: none;
+}
+
+/* Setting For Plan */
+.d-lg-flex {
+  padding: 2vh;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+.d-lg-flex li {
+  width: 25%;
+  padding-left: 0;
+  padding-right: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 5vh;
+}
+
+.card {
+  width: fit-content;
+  color: white;
+  border: 0px;
+  overflow: hidden;
+}
+
+.card ul {
+  width: 5vw;
+  padding: 0;
+}
+
+.card ul li {
+  width: 10vw;
+}
+
+.card ul li a {
+  text-decoration: none;
+  color: white;
+}
+.card ul li a:hover {
+  color: yellow;
+}
+
+.link {
+  width: 100vw;
+  font-weight: bold;
+  text-decoration: none;
+  color: white;
+}
+.link:hover {
+  color: yellow;
+}
