@@ -7,15 +7,13 @@
 .d-lg-flex {
   padding: 2vh;
   flex-flow: row wrap;
-  justify-content: space-between;
+  justify-content: space-evenly;
 }
 .d-lg-flex li {
-  width: 25%;
   padding-left: 0;
-  padding-right: 20px;
   display: flex;
   flex-direction: column;
-  gap: 5vh;
+  gap: 2vh;
 }
 
 .card {
@@ -26,8 +24,8 @@
 }
 
 .card ul {
-  width: 5vw;
-  padding: 0;
+  width: 10vw;
+  padding-left: 10px;
 }
 
 .card ul li {
@@ -36,18 +34,18 @@
 
 .card ul li a {
   text-decoration: none;
-  color: white;
+  color: darkgrey;
 }
 .card ul li a:hover {
-  color: yellow;
+  color: white;
 }
 
 .link {
   width: 100vw;
-  font-weight: bold;
   text-decoration: none;
-  color: white;
+  color: darkgrey;
+  font-family: "system-ui", sans-serif;
 }
 .link:hover {
-  color: yellow;
+  color: white;
 }
