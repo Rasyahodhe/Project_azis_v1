@@ -1,0 +1,44 @@
+.sec_login {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+}
+
+.sec_login .h_login {
+  width: 40%;
+  height: 40vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(73, 96, 148);
+  color: white;
+  font-size: 1.5vw;
+  font-weight: bold;
+  padding: 20px;
+  text-shadow: 1px 1px 1px black;
+}
+.sec_login .h_login .h_login_cont small {
+  color: yellow;
+}
+
+.sec_login .login-cont {
+  width: 30%;
+}
+.sec_login .login-cont h1 {
+  text-align: center;
+  color: rgb(73, 96, 148);
+}
+.sec_login .login-cont form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 2vh;
+}
+
+.sec_login .login-cont form .btn_login {
+  margin-top: 20px;
+}

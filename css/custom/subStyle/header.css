@@ -1,0 +1,121 @@
+section {
+  display: flex;
+  flex-direction: column;
+  gap: 2vw;
+}
+section header {
+  height: 30vw;
+  background-image: url("../../../asset/bg_Header.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+  display: flex;
+  flex-direction: column;
+  gap: 3vw;
+}
+
+section header h1 {
+  width: 50%;
+  margin-left: 6vw;
+  margin-top: 6vw;
+  font-size: 2.5vw;
+  font-weight: bold;
+  color: white;
+  text-shadow: 0 0 5px black, 0 0 5px black;
+}
+section header h1 small {
+  color: rgb(22, 167, 92);
+  font-family: " system-ui";
+}
+/* Setting Card */
+section .container_card {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(230, 229, 229);
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+
+section .container_card .con_btn_show {
+  display: flex;
+  padding: 10px 10px;
+  justify-content: space-between;
+}
+
+section .all_Card {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  gap: 1px;
+}
+
+section .all_Card .card {
+  max-width: 49%;
+}
+section .all_Card .card .card_item {
+  display: flex;
+}
+section .all_Card .card .card_item_img {
+  padding-top: 1vw;
+}
+section .all_Card .card .card_item_img img {
+  width: 3vw;
+}
+
+section .all_Card .card .card-title {
+  font-size: 1.3vw;
+}
+section .all_Card .card .card-text {
+  font-size: 1vw;
+}
+section .all_Card .card .card-text small {
+  color: orange;
+}
+
+/* Responsive */
+@media (max-width: 576px) {
+  section header {
+    height: 50vw;
+    gap: 5vw;
+  }
+
+  section header h1 {
+    width: 80%;
+    font-size: 4vw;
+    margin-top: 10vw;
+  }
+
+  /* Setting Card */
+  section .container_card {
+    flex-direction: column-reverse;
+  }
+  section .container_card .con_btn_show {
+    justify-content: center;
+  }
+  section .container_card .con_btn_show h6 {
+    font-size: 0px;
+    width: 0px;
+  }
+  /* Setting All Card */
+  section .all_Card {
+    flex-direction: column;
+  }
+  section .all_Card .card {
+    max-width: 100%;
+  }
+  section .all_Card .card .card_item .card_item_img img {
+    width: 10vw;
+  }
+  /* setting Card Body */
+
+  section .all_Card .card .card-title {
+    font-size: 3vw;
+  }
+  section .all_Card .card .card-text {
+    font-size: 2vw;
+  }
+}
