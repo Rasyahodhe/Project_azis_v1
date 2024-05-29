@@ -1,15 +1,32 @@
 @import "./subStyle/header.css";
-@import "./subStyle/graphic.css";
 @import "./subStyle/galery/galery.css";
 @import "./subStyle/card_p.css";
 @import "./subStyle/adm.css";
 @import "./subStyle/footer.css";
 @import "./subStyle/login.css";
 @import "./subStyle/navbar.css";
-
+@import "./subStyle/layanan.css";
+@import "./subStyle/tutorial.css";
+@import "./subStyle/document.css";
+@import "./subStyle/link.css";
 * {
   padding: 0;
   margin: 0;
+}
+h1 {
+  font-family: roboto;
+}
+body {
+  background-color: rgb(250, 250, 250);
+}
+body .line {
+  opacity: 0;
+}
+
+@media (max-width: 768px) {
+  body .line {
+    opacity: 1;
+  }
 }
 /* Navbar Custom backgorund */
 
